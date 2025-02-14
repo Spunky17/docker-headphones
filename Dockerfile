@@ -45,7 +45,7 @@ RUN \
   echo "**** shntool compiled ****" && \
   echo "" && \
   echo "**** install headphones ****" && \
-  git clone https://github.com/Spunky17/headphones.git /app/headphones && \
+  git clone --branch develop https://github.com/Spunky17/headphones.git /app/headphones && \
   echo "**** headphones installed ****" && \
   echo "" && \
   echo "**** cleanup ****" && \
